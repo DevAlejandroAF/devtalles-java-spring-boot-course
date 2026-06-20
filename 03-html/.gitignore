@@ -1,0 +1,6 @@
+# ... otras reglas ...
+video/creando-template-intellij.mp4
+# O si quieres ignorar todos los videos en esa carpeta:
+video/*.mp4
+# O toda la carpeta de video si no hay nada más que necesites versionar:
+video/
