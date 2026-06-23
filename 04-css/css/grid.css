@@ -1,0 +1,10 @@
+.cards{
+    display: grid;
+    /* grid-template-columns: 400px 400px 400px; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.article img{
+    width: 100%;
+}

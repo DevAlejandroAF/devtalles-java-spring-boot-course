@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - [Tu Nombre]</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div>
+                <span>[Tu Logotipo/Nombre]</span>
+            </div>
+            <ul>
+                <li><a href="#about">Acerca de Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div>
+                <h1>Soy [PersonDetail.fullName]</h1>
+                <h2>Desarrollador Full Stack</h2>
+                <p>
+                    Apasionado por crear experiencias web increíbles y funcionales.
+                    Listo para transformar tus ideas en realidad digital.
+                </p>
+                <a href="#projects">Ver Mis Proyectos</a>
+            </div>
+            <div>
+                <img src="images/profile-hero.jpg" alt="[PersonDetail.fullName] - Foto de Perfil">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>¿Quién Soy?</h2>
+            <div>
+                <img src="images/about-decor-1.png" alt="Ilustración decorativa">
+            </div>
+            <div>
+                <p>[PersonDetail.aboutMe]</p>
+                <p>
+                    Soy un desarrollador web full-stack especializado en ReactJS y Node.js.
+                    También tengo conocimientos en desarrollo front-end con WordPress.
+                </p>
+                <p>
+                    La programación es mi pasión, y la razón es que siempre estoy aprendiendo
+                    y creciendo en mi carrera académica.
+                </p>
+                <p>
+                    Además, me gusta jugar videojuegos y leer libros de ciencia ficción en mi
+                    tiempo libre. ¡Es divertido y relajante!
+                </p>
+                <a href="#projects">Mostrar Mis Proyectos</a>
+            </div>
+            <div>
+                <img src="images/about-decor-2.png" alt="Ilustración decorativa">
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Mis Habilidades</h2>
+            <div>
+                <div>
+                    <h3>Backend</h3>
+                    <p>Nivel: [Skill.level - Backend]</p>
+                    </div>
+                <div>
+                    <h3>CMS</h3>
+                    <p>Nivel: [Skill.level - CMS]</p>
+                </div>
+                <div>
+                    <h3>Frontend</h3>
+                    <p>Nivel: [Skill.level - Frontend]</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="images/icon-html5.png" alt="HTML5 Icono">
+                    <p>[Skill.name - HTML5]</p>
+                </div>
+                <div>
+                    <img src="images/icon-css3.png" alt="CSS3 Icono">
+                    <p>[Skill.name - CSS3]</p>
+                </div>
+                <div>
+                    <img src="images/icon-javascript.png" alt="JavaScript Icono">
+                    <p>[Skill.name - JavaScript]</p>
+                </div>
+                <div>
+                    <img src="images/icon-react.png" alt="React Icono">
+                    <p>[Skill.name - React]</p>
+                </div>
+                <div>
+                    <img src="images/icon-nodejs.png" alt="Node.js Icono">
+                    <p>[Skill.name - Node.js]</p>
+                </div>
+                <div>
+                    <img src="images/icon-mongodb.png" alt="MongoDB Icono">
+                    <p>[Skill.name - MongoDB]</p>
+                </div>
+                <div>
+                    <h3>4 Años</h3>
+                    <p>De Experiencia Trabajando</p>
+                </div>
+            </div>
+            <div>
+                <h3>Habilidades Adicionales</h3>
+                <div>
+                    <img src="images/icon-git.png" alt="Git Icono">
+                    <p>Git</p>
+                </div>
+                <div>
+                    <img src="images/icon-figma.png" alt="Figma Icono">
+                    <p>Figma</p>
+                </div>
+                </div>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div>
+                <article>
+                    <h3>[Project.title - Proyecto Ejemplo 1]</h3>
+                    <p>[Project.description - Descripción breve del proyecto 1.]</p>
+                    <img src="images/project-1.jpg" alt="Captura de pantalla del Proyecto 1">
+                    <a href="[Project.projectUrl - link-a-proyecto-1.com]" target="_blank">Ver Proyecto</a>
+                </article>
+                <article>
+                    <h3>[Project.title - Proyecto Ejemplo 2]</h3>
+                    <p>[Project.description - Descripción breve del proyecto 2.]</p>
+                    <img src="images/project-2.jpg" alt="Captura de pantalla del Proyecto 2">
+                    <a href="[Project.projectUrl - link-a-proyecto-2.com]" target="_blank">Ver Proyecto</a>
+                </article>
+                </div>
+            <a href="#">Ver Todos los Proyectos</a>
+        </section>
+
+        <section id="contact">
+            <h2>¿Tienes una idea? ¡Hablemos!</h2>
+            <p>
+                Estoy disponible para nuevos proyectos y colaboraciones.
+                Ponte en contacto para que podamos hacer realidad tus visiones.
+            </p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="name">Tu Nombre</label>
+                    <input type="text" id="name" name="user_name" required>
+                </div>
+                <div>
+                    <label for="email">Tu Correo Electrónico</label>
+                    <input type="email" id="email" name="user_email" required>
+                </div>
+                <div>
+                    <label for="message">Tu Mensaje</label>
+                    <textarea id="message" name="user_message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <div>
+                <h3>Información de Contacto</h3>
+                <p>Email: <a href="mailto:[ContactInfo.email]">[ContactInfo.email]</a></p>
+                <p>Teléfono: [ContactInfo.phone]</p>
+                <ul>
+                    <li><a href="[ContactInfo.githubUrl]" target="_blank">GitHub</a></li>
+                    <li><a href="[ContactInfo.linkedinUrl]" target="_blank">LinkedIn</a></li>
+                    <li><a href="[ContactInfo.otherLinks - portfolio-externo.com]" target="_blank">Mi Otro Portfolio</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [PersonDetail.fullName]. Todos los derechos reservados.</p>
+        </footer>
+
+</body>
+</html>
+
